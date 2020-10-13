@@ -7,10 +7,41 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>seconda pagina con JavaScript</h1>
-        <h2 id="etaUtente"> </h2>
-        <h3 id="kmUtente"></h3>
-        <span id="sconto"></span>
+        <div class="menu">
+            <ul>
+                <li>Itinerario</li>
+                <li>Prezzi</li>
+                <li>Dettagli</li>
+                <li>Pagamenti</li>
+                <li>Riepilogo</li>
+            </ul>
+        </div>
+        <div class="img-logo">
+            <img src="https://www.trenitalia.com/content/dam/tcom/asset/icon/header-logo/logo-trenitalia.svg" alt="">
+        </div>
+        <div class="titolo">
+            <h1>Acquisto biglietti</h1>
+        </div>
+        <div class="dati-viaggio">
+            <form class="form-1" action="/action_page.php">
+              <label for="fname">Città di Partenza</label><br>
+              <input type="text" id="etaUtente" name="fname" value=""><br>
+              <label for="lname">Città di Arrivo:</label><br>
+              <input type="text" id="kmUtente" name="lname" value=""><br><br>
+              <input type="submit" value="Submit">
+            </form>
+            <form class="form-2" action="/action_page.php">
+              <label for="fname">Andata</label><br>
+              <input type="text" id="etaUtente" name="fname" value=""><br>
+              <label for="lname">Ritorno:</label><br>
+              <input type="text" id="kmUtente" name="lname" value=""><br><br>
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+            <!-- <h2 id="etaUtente">eta </h2>
+                <h3 id="kmUtente">km</h3> -->
+                    <span id="sconto">sconto</span>
+</div>
         <script src="main.js" charset="utf-8"></script>
     </body>
 </html>

@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family:verdana;
+color: white;
+}
+
+
+.img-logo{
+width: 200px;
+margin: auto;
+padding-top: 41px;
+}
+.menu{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.menu li{
+display: inline;
+list-style-type: none;
+font-size: 18px;
+padding: 10px 24px;
+background-color: red;
+}
+
+.menu li:hover{
+color: black;
+}
+
+h1 {
+text-align: center;
+padding-top: 48px;
+padding-bottom: 26px;
+color:#344134;
+}
+
+.dati-viaggio{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 18px;
+}
+.form-1, .form-2 {
+    float: left;
+    padding-left: 20px;
+}
+
+
+#sconto{
+background-color: red;
+display: flex;
+justify-content: center;
+width: 60%;
+margin: auto;
+padding-top: 25px;
+padding-bottom: 25px;
+color: white;
+border: 1px solid white;
+}
